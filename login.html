@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- robotto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/login.css">
+
+    <script src="assets/js/header.js"></script>
+
+
+    <title>Login</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="container-nav">
+                <div class="container-logo" data-aos="fade-right">
+                    <h1>Blue Sky <span>Realty</span> </h1>
+                </div>
+                <div class="container-links" data-aos="fade-right" data-aos-delay="180">
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#houses">Houses</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="login.html"><i class="bi bi-person-circle"></i></a></li>
+                    </ul>
+                </div>
+                
+                <!-- Ícone do menu hambúrguer -->
+                <div class="menu-hamburguer" id="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="interface-container">
+            <form>
+
+                <h1 class="title" data-aos="fade-up">Faça Login</h1>
+                <div class="flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="form-floating mb-3" >
+                        <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome">
+                        <label for="nome">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+                        <label for="sobrenome">surname</label>
+                    </div>
+                </div>
+
+                <div class="infos">
+                    <div class="form-floating mb-3" data-aos="fade-up" data-aos-delay="150">
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <label for="email">Email address</label>
+                      </div>
+                      <div class="form-floating" data-aos="fade-up" data-aos-delay="200">
+                        <input type="password" class="form-control" id="senha" placeholder="Password">
+                        <label for="senha">Password</label>
+                      </div>
+
+                      <div data-aos="fade-up" data-aos-delay="250">
+                        <a href="#" class="recuperar">Forget Password?</a>
+                      </div>
+
+
+                </div>
+
+
+                <div class="form-check" data-aos="fade-up" data-aos-delay="300">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <a href="#"> Aceitar termos e privacidade</a>
+                    </label>
+                </div>
+                  
+
+                <div class="btns" data-aos="fade-up" data-aos-delay="350">
+                    <div data-aos="fade-right"><button>Logar</button></div>
+                    <div data-aos="fade-left"><button>Limpar</button></div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <p class="register">Not registered? <a href="#">register</a></p>
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="containerFooter">
+            <div class="containerFooterFlex">
+                <div class="container-logo">
+                    <h1>Blue Sky <span>Realty</span> </h1>
+                </div>
+                <div class="icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                <div class="nomes">
+                    <ul>
+                        <li>Mirella</li>
+                        <li>Gustavo</li>
+                        <li>Lucas</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="direitos">
+                <p>All Rights Reserved &copy; 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

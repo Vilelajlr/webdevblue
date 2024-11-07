@@ -1,0 +1,273 @@
+
+main{
+    height: 100dvh;
+}
+
+.interface{
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.foto-casas{
+    .casas{
+        background-color: #f1f1f1;
+        padding: 5px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .casa-normal{
+        img{
+            border-radius: 4px;
+        }
+    }
+
+    .casas-pequenas{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        img{
+            border-radius: 4px;
+        }
+    }
+
+}
+
+.infos{
+
+    .top-infos{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+
+        .localizacao{
+
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .img-mapa{
+                width: 20px;
+            }
+
+            p{
+                font-size: 14px;
+                color: #333;
+                margin: 0;
+            }
+        }
+
+        .title{
+            h1{
+                font-size: 2.5rem;
+                color: #333;
+                margin: 0;
+                font-weight: bolder;
+            }
+        }
+
+        .info-casa{
+            p{
+                font-size: 0.7rem;
+                margin: 0;
+            }
+        }
+
+        .stars{
+            background-color: #f1f1f1;
+            padding: 8px 10px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                margin: 0;
+
+                i{
+                    color: #FFD700;
+                }
+
+            }
+        }
+
+    }
+
+
+    .mid-infos{
+        margin-bottom: 40px;
+
+        div{
+            p{
+                font-size: 1.2rem;
+                margin: 0;
+                margin-bottom: 5px;
+                text-indent: 1rem;
+            }
+        }
+
+    }
+
+    .bottom-infos{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+
+        .flex-bottom{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .icn{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            p{
+                margin: 0;
+            }
+        }
+    }
+
+    .btn{
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+        button{
+            padding: 10px 70px;
+            border-radius: 15px;
+            background-color: #193559;
+            color: #f1f1f1;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+
+        }
+
+        
+
+    }
+
+}
+
+.container-dono{
+
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    min-height: 300px;
+    .interfaceDonos{
+        width: 100%;
+        max-width: 1420px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .flexContainerSection{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+
+            i{
+                color: #FFD700;
+            }
+
+            .classificacoesGerais{
+                h3{
+                    font-size: 1.8rem;
+                    font-weight: bolder;
+                }
+                hr{
+                    margin: 3px 0;
+                }
+
+                .clas{
+                    
+                    p{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        margin: 0;
+                        i{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+
+                }
+
+                .top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p{
+                        margin: 0;
+                    }
+                }
+
+            }
+
+        }
+
+        .flex-donos{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            background-color: #f1f1f1;
+            padding: 20px 30px;
+            border-radius: 20px;
+
+
+            .img-dono{
+                width: 130px;
+                
+                img{
+                    height: 130px;
+                    border-radius: 50%;
+                }
+            }
+
+            .info-dono{
+                h1,p{
+                    margin: 0;
+                }
+            }
+
+        }
+
+    }
+}
+
+

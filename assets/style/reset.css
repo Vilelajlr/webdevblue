@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white: #f1f1f1;
+    --color-black: #000;
+    --color-black-light: #333;
+}
+
+html
+{ 
+    scroll-behavior: smooth;
+}
+
+
+
+
+img{
+    max-width: 100%;
+}
+
+.w-icons{
+    width: 32px;
+    height: 32px;
+}
+
+.wt-casas{
+    width: 130px;
+}
+
+.casa-normal{
+    width: 600px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}

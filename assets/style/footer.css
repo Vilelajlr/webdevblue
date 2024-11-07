@@ -1,0 +1,34 @@
+footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0;
+    background: linear-gradient(to right, #83b8ea,#3596da,#4ea2e2);
+}
+.containerFooter{
+    max-width: 1420px;
+    margin: 0 auto;
+}
+.containerFooterFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.direitos{
+text-align: center;
+font-size: 1rem;
+color: white;
+font-weight: bolder;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.nomes ul{
+    padding: 0;
+}
+.nomes ul li{
+    color: white;
+font-weight: bolder;
+}
