@@ -7,7 +7,7 @@ header {
 
 
 
-.container-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,4 +104,10 @@ i {
         flex-direction: column;
         gap: 20px;
     }
+    .nav{
+        width: 430px;
+    }
+
+    
+    
 }

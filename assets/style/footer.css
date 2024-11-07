@@ -32,3 +32,14 @@ font-weight: bolder;
     color: white;
 font-weight: bolder;
 }
+
+@media (max-width: 768px)
+{
+    footer{
+        padding: 50px 0 0 0;
+    }
+    .containerFooterFlex{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

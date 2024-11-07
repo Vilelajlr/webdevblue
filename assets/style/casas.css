@@ -1,6 +1,6 @@
 
 main{
-    height: 100dvh;
+    min-height: 100dvh;
 }
 
 .interface{
@@ -270,4 +270,30 @@ main{
     }
 }
 
+
+@media (max-width: 768px){
+    main{
+        padding-top: 25dvh;
+        margin-bottom: 100px;
+    }    
+    .container-flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .foto-casas{
+        .casa-normal{
+            width: 390px;
+        }
+
+        width: 400px;
+    }
+    
+    .flexContainerSection{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .container-dono{
+        padding: 30px 0;
+    }
+}
 

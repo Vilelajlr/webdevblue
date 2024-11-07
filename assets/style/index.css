@@ -10,6 +10,7 @@ main
     background-image: url(../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .container-main{
@@ -282,5 +283,54 @@ textarea{
         background-color: #f1f1f1;
         color: #193559;
     }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+.container-main{
+    width: 330px;
+    height: 200px;
+}
+.container-texto h1{
+    font-size: 2.2rem;
+    
+}
+
+.interface{
+    flex-direction: column-reverse;
+
+.img{
+    width: 300px;
+}
+
+}
+
+.conteudo{
+
+    width: 300px;
+    .descricao{
+        width: 100%;
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
+
+    .containerTitle{
+        font-size: 2rem;
+    }
+
+    form{ 
+    align-items: center;
+    input,textarea{
+        width: 300px;
+    }
+}
+
+
 
 }
