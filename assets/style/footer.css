@@ -36,7 +36,7 @@ font-weight: bolder;
 @media (max-width: 768px)
 {
     footer{
-        padding: 50px 0 0 0;
+        padding: 50px 0 20px 0;
     }
     .containerFooterFlex{
         flex-direction: column;
