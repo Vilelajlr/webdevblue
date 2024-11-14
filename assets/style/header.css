@@ -1,7 +1,7 @@
 header {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 100;
     background: linear-gradient(to right, #83b8ea, #3596da, #4ea2e2);
 }
 
